@@ -1,0 +1,130 @@
+@import url('./_normalize.css');
+@import url('./_vars.css');
+@import url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--main-font-size);
+    color: var(--main-color);
+}
+
+.page-nav, .main-content section { 
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.page-nav{
+    text-align: center;
+    border-bottom: 1px solid #828282;
+}
+
+.nav-list{
+        padding: 0;
+}
+
+.nav-list-elem{
+    display: inline-block;
+    letter-spacing: 0.02em;
+    color: #828282;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.nav-list-elem a {
+    all: inherit;
+}
+
+.nav-list-elem:hover {
+    color: var(--main-color);
+}
+
+.first-screen{ 
+    text-align: start;
+}
+
+.cv-photo{
+    margin: 0;
+}
+
+.cv-photo h1{
+    font-size: 3rem;
+    margin: 1rem 0 3rem 0;
+}
+
+.cv-photo img{
+    position: relative;
+    top:5px;
+}
+
+
+.about-me { 
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-me h2 { 
+    margin: 0 0 3rem 0;
+}
+
+.about-me p:last-of-type{
+    margin-bottom: 0;
+}
+
+.skills{ 
+    text-align: center;
+    padding: 100px 0;
+}
+
+.skill-icon{
+    display: inline-block;
+    text-align: center;
+}
+
+.skill-icon img { 
+    width:80px;
+    margin-bottom: 20px;
+}
+
+.skill-icon img:last-of-type {
+    height: 80px;
+}
+
+.skill-icon figcaption {
+    font-size: 0.8rem;
+    width: 110px;
+    margin-left: 1rem;
+    color: #828282;
+}
+
+.skill-icon:nth-child(3) figcaption{
+    position: relative;
+}
+
+.skill-icon:nth-child(3) figcaption::after {
+    content: 'After Effects';
+    width: max-content;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 26px/1 FontAwesome;
+    /* font-size: inherit; */
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.fa.fa-star{
+ margin-top: 4rem; 
+ color: #E5E5E5;
+}
+
+.fa.fa-star.checked {
+    color: #070707;
+}
+
