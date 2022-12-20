@@ -78,9 +78,15 @@ body{
     padding: 100px 0;
 }
 
+.skills h2{
+    font-size: 37px;
+    font-weight: 700;
+}
+
 .skill-icon{
     display: inline-block;
     text-align: center;
+    font-weight: 700;
 }
 
 .skill-icon img { 
@@ -95,20 +101,9 @@ body{
 .skill-icon figcaption {
     font-size: 0.8rem;
     width: 110px;
-    margin-left: 1rem;
+    margin-left: 0.8rem;
     color: #828282;
-}
-
-.skill-icon:nth-child(3) figcaption{
-    position: relative;
-}
-
-.skill-icon:nth-child(3) figcaption::after {
-    content: 'After Effects';
-    width: max-content;
-    position: absolute;
-    top: 15px;
-    left: 20px;
+    line-height: 19px;
 }
 
 .fa {
