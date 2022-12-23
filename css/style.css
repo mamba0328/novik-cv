@@ -11,13 +11,17 @@ body{
 
 h2, h1{ 
     color: #070707;
+    line-height: 1.36;
 }
-.page-nav, .main-content section { 
-    width: 100%;
-    margin: 0 auto;
+
+.section-header{
+    line-height: 1.36;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .page-nav{
+    margin: 0 auto;
     max-width: 970px;
     text-align: center;
     border-bottom: 1px solid #828282;
@@ -50,6 +54,7 @@ h2, h1{
 }
 
 .first-screen{ 
+    margin: 0 auto;
     max-width: 1440px;
     text-align: center;
 }
@@ -74,8 +79,6 @@ h2, h1{
 }
 
 .about-me h2 {
-    font-weight: 700;
-    margin-top: 0;
     margin-bottom: 50px;
 }
 
@@ -98,8 +101,6 @@ h2, h1{
 
 .skills h2{
     margin: 0 0 20px 0;
-    font-size: 2rem;
-    font-weight: 700;
 }
 
 .skill{
@@ -156,16 +157,18 @@ h2, h1{
 }
 
 .portfolio h2 {
-    line-height: 1.36;
-    font-weight: 700;
     margin-bottom: 50px;
-    font-size: 2rem;
 }
 
 .portfolio-example{ 
     text-align: center;
     margin: 0;
     margin-bottom: 70px;
+}
+
+.portfolio-example:last-of-type {
+
+    margin-bottom:0;
 }
 
 .portfolio-example img{ 
@@ -188,10 +191,6 @@ h2, h1{
 .contacts header{
     line-height: 1.36;
     margin-bottom: 60px;
-}
-
-.contacts h2{ 
-    font-size: 2rem;
 }
 
 .links-wrapper{
@@ -224,4 +223,5 @@ h2, h1{
 
 .contacts>p{ 
     color: #828282;
+    font-weight: 400;
 }
