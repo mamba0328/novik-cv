@@ -1,12 +1,14 @@
 @import url('./normalize.css');
 @import url('./vars.css');
-@import url(../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+@import url('../assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf');
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: var(--main-font-size);
     color: var(--main-color);
+    margin: 0;
 }
 
 h2, h1{ 
