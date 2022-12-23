@@ -55,19 +55,21 @@ h2, h1{
 
 .first-screen{ 
     margin: 0 auto;
-    max-width: 1440px;
-    text-align: center;
+    max-width: 970px;
+    width: 100%;
 }
 
 .first-screen h1 {
-    text-align: start;
-    width: 970px;
     font-size: 3rem;
-    margin: 12px 0 50px 235px;
+    margin: 12px 0 50px 0;
 }
 
 .img-wrapper{
     line-height: 0;
+}
+
+.img-wrapper img{
+    width: 970px;
 }
 
 .about-me {
@@ -79,6 +81,7 @@ h2, h1{
 }
 
 .about-me h2 {
+    margin-top: 0;
     margin-bottom: 50px;
 }
 
