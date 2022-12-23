@@ -18,22 +18,28 @@ body{
 .page-nav{
     text-align: center;
     border-bottom: 1px solid #828282;
+    line-height: 1.36;
 }
 
 .nav-list{
-        padding: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-list-elem{
     display: inline-block;
-    letter-spacing: 0.02em;
+    letter-spacing: 1px;
     color: #828282;
-    margin: 1em;
+    margin: 0 40px 0 0 ;
+    padding: 27.5px 0;
     cursor: pointer;
 }
 
 .nav-list-elem a {
     all: inherit;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
 }
 
 .nav-list-elem:hover {
@@ -44,29 +50,31 @@ body{
     text-align: start;
 }
 
-.cv-photo{
-    margin: 0;
-}
-
-.cv-photo h1{
+.first-screen h1 {
+    width: 300px;
+    height: 60px;
     font-size: 3rem;
-    margin: 1rem 0 3rem 0;
+    margin: 12px 0 50px 0;
 }
 
-.cv-photo img{
-    position: relative;
-    top:5px;
+.img-wrapper{
+    line-height: 0;
 }
-
 
 .about-me { 
     background-color: #F6F6F6;
     text-align: center;
+    line-height: 1.36;
     padding: 100px 0;
 }
 
-.about-me h2 { 
-    margin: 0 0 3rem 0;
+.about-me h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.about-me p{
+    margin: 0 0 30px 0;
 }
 
 .about-me p:last-of-type{
@@ -78,32 +86,44 @@ body{
     padding: 100px 0;
 }
 
+.skills header{ 
+    margin-bottom: 50px;
+}
+
 .skills h2{
-    font-size: 37px;
+    margin: 0 0 20px 0;
+    font-size: 2rem;
     font-weight: 700;
 }
 
-.skill-icon{
+.skill{
     display: inline-block;
     text-align: center;
     font-weight: 700;
+    margin: 0 97px 0 0;
 }
 
-.skill-icon img { 
-    width:80px;
-    margin-bottom: 20px;
+.skill:last-of-type {
+    margin-right: 0;
 }
 
-.skill-icon img:last-of-type {
-    height: 80px;
+.skill figure {
+    margin: 0;
 }
 
-.skill-icon figcaption {
+.skill img { 
+    width: 80px;
+    margin-bottom: 25px;
+}
+
+.skill figcaption {
     font-size: 0.8rem;
-    width: 110px;
-    margin-left: 0.8rem;
     color: #828282;
-    line-height: 19px;
+    line-height: 1.36;
+}
+
+.figma-icon {
+    max-width: 53px;
 }
 
 .fa {
@@ -115,7 +135,7 @@ body{
 }
 
 .fa.fa-star{
- margin-top: 4rem; 
+ margin-top: 80px; 
  color: #E5E5E5;
 }
 
@@ -123,3 +143,7 @@ body{
     color: #070707;
 }
 
+.portfolio{ 
+    text-align: center;
+    background-color: #F6F6F6;
+}
