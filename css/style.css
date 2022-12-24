@@ -203,7 +203,7 @@ h2, h1{
     text-align: center;
 }
 
-.links-wrapper button {
+.links-wrapper button{
     display: block;
     margin: 0 auto 30px auto;
     line-height: 1.36;
@@ -217,11 +217,11 @@ h2, h1{
     cursor: pointer;
 }
 
-.links-wrapper ul{
-    list-style:none;
+.list-of-links{
+    list-style-type: none;
 }
 
-.links-wrapper li {
+.list-of-links li{
     display: inline-block;
     margin-right: 50px;
     cursor: pointer;
